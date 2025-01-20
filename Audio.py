@@ -14,7 +14,6 @@ CHUNK_SIZE = 1024
 RECORD_SECONDS = 6
 WAVE_OUTPUT_FILENAME = "audio.wav"
 
-
 def Audio():
     # Set up audio input
     audio = pyaudio.PyAudio()
